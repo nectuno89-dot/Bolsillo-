@@ -1,0 +1,21 @@
+{
+  "name": "Bolsillo",
+  "short_name": "Bolsillo",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#121714",
+  "theme_color": "#121714",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Registrar gasto",
+      "short_name": "Gasto",
+      "url": "./index.html?a=gasto",
+      "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}
